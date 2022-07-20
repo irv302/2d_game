@@ -1,16 +1,18 @@
+package game;
+
 import javax.swing.JFrame;
 
 public class Game extends JFrame {
 
         public Game()
         {
-            add( "Space Invaders");
-            setTitle("Space Invaders");
+            add( "board");
+            setTitle("Side Scroller");
             setDefaultCloseOperation(EXIT_ON_CLOSE);
-            setSize(800,800);
+            setSize(960,448);
             setLocationRelativeTo(null);
             setVisible(true);
-            setResizable(true);
+            setResizable(false);
         }
 
         private void add(String string) {
